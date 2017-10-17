@@ -3,8 +3,11 @@
   let userName = document.getElementById("user-name"); 
   let getName = document.getElementById("get-name");
   
+  let myHelloWorld = document.getElementById("Hello-World")
+  
   function PerformGreeting() {
     myName.innerHTML = userName.value;
+	myHelloWorld.innerHTML = userName.value;
     event.preventDefault();
     return false;
   }
